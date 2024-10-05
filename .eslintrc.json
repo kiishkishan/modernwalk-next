@@ -1,0 +1,16 @@
+{
+  "extends": ["next", "plugin:prettier/recommended"],
+  "rules": {
+    "no-unused-vars": "error",
+    "eqeqeq": "error",
+    "no-var": "error",
+    "prefer-const": "error",
+    "indent": ["error", 2],
+    "semi": ["error", "never"],
+    "comma-spacing": ["error", { "before": false, "after": true }],
+    "object-curly-spacing": ["error", "always"],
+    "array-bracket-spacing": ["error", "never"],
+    "key-spacing": ["error", { "beforeColon": false, "afterColon": true }]
+    // Add any additional rules or overrides here
+  }
+}
